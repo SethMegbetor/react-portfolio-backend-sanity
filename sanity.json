@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "react_portfolio"
-  },
   "api": {
     "projectId": "03k7jaon",
     "dataset": "production"
+  },
+  "project": {
+    "name": "react_portfolio"
   },
   "plugins": [
     "@sanity/base",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
